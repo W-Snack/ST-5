@@ -1,9 +1,9 @@
 package org.example;
 
-import junit.framework.TestCase;
-import org.junit.Test;
+import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
-public class SqrtTest extends TestCase {
+public class SqrtTest {
     @Test
     public void testConstructorSetsArgCorrectly() {
         Sqrt sqrt = new Sqrt(25.0);
